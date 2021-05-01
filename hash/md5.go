@@ -9,7 +9,7 @@ import (
 "os"
 )
 
-// get file md5
+// return file md5 and error
 func FileMd5(filename string) (string, error) {
 	file, err := os.Open(filename)
 	if err != nil {
