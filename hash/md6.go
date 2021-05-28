@@ -1,6 +1,8 @@
 package hash
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func init() {
 	fmt.Println("123")
