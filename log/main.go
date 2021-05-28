@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("123")
 	uuids := uuid.NewV1()
 	log.SetPrefix(uuids.String() + " ")
 	log.SetFlags(log.Ldate | log.Lshortfile)
